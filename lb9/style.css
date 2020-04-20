@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2
+}
+.text {
+    letter-spacing: 1px;
+    margin: 0 auto;
+    font-family: 'Lexend Giga';
+    color: #f2f2f2;
+}
+#paper-plane {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(bg.png) no-repeat;
+    min-width: 155vh;
+    height: 500px;
+    background-position: center;
+    background-size: 100%;
+    margin-left: -2px;
+}
+
+#paper-plane img {
+    padding-bottom: 15px;
+}
+
+#paper-plane p {
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+#subscribe {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+}
+#subscribe input {
+    width: 300px;
+    background-color: transparent;
+    border: 2px solid rgba(212, 212, 212, 0.897);
+    border-radius: 1px;
+    font-size: 150%;
+    text-align: center;
+}
+#subscribe button {
+    border: none;
+    border-radius: 1px;
+    margin-left: 5px;
+    width: 100px;
+    height: 100%;
+    background-color: rgb(60, 200, 179);
+    outline: none;
+}
+#subscribe button p {
+    padding-top: 25%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} 
+#subscribe button p:hover{
+    opacity: 74%;
+}
+#subscribe input[type=submit]{
+    background: rgba(13, 232, 202, 0.8)
+}
+#subscribe input[type=text] { 
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid 1px #fff; padding: 20px;
+    color: #fff; }
+#subscribe input[type=submit] {
+    background: rgba(13, 232, 202, 0.8); }
+#subscribe input[type=submit]:hover {
+    background: rgba(61, 201, 179, 1);
+    border: solid 1px rgba(61, 201, 179, 1); 
+    color: #fff; } 
+
