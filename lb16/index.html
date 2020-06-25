@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Нефёдов</title>
+    <meta charset="utf-8" />
+
+</head>
+
+<body>
+    <div id="app">
+        <app-peep></app-peep>
+    </div>
+    <script src="https://unpkg.com/vue"></script>
+    <script>
+        Vue.component('app-peep',{
+            data:function(){
+                return{
+                    visible: false   
+                }
+            }, template: `<div><p v-if="visible"><img src="peep.png" width="650px" height="650px"></p><p></p><button v-on:click="visible=!visible">{{visible?'💔Скрыть💔':'❤Показать❤'}}</button></div>`
+        })
+        var app = new Vue({
+            el: '#app',
+        });
+    </script>
+</body>
+</html>
